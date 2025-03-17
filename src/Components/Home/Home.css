@@ -1,0 +1,35 @@
+.home-text{
+    margin-top: 50px;
+    border: 1px solid;
+   
+    width: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(204, 201, 222, 0.2);
+ 
+    margin-left:auto;
+    margin-right:auto;
+    align-content: center;
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+    font-size: 1.2em;
+
+ 
+
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/kenya.png');
+    background-size:cover;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+
+}

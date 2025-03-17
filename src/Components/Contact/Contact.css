@@ -1,0 +1,16 @@
+
+.about{
+    display: block;
+    background-color: aquamarine;
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+.date{
+    color:blue ;
+    font-size: 2em;
+}
