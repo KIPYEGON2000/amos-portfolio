@@ -1,16 +1,16 @@
 {
   "name": "my-react-app",
-  "homepage": "https://KIPYEGON2000.github.io/portfolio",
+  "homepage":"https://kipyegon2000.github.io/amos-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
 
-  "scripts":{
+"scripts": {
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
 },
 
   "dependencies": {

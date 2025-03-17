@@ -1,8 +1,8 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
-}from "react-router-dom";
+} from "react-router-dom";
 import React from "react";
 import Header from "./Header"
 import Footer from "./Footer";
