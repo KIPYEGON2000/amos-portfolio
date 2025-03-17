@@ -1,6 +1,8 @@
 import React from "react";
 import './About.css'
+import { useNavigate } from "react-router-dom";
 function About(){
+    const navigate = useNavigate();
     return(
         <div className="about">
         <div className="about-text">
@@ -10,7 +12,7 @@ function About(){
         
 
 </div>
-<button className="btn">more...</button>
+<button className= "btn" onClick={() => navigate("/Hero")}>More...</button>
 </div>
    
 );

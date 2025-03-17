@@ -43,6 +43,11 @@ nav ul li{
 .dark-color{
     background-color: blue;
 }
+.logo1{
+    max-width: 40px;
+    height: auto;
+    display: none;
+}
 
 @media (max-width: 800px) {
     nav ul li {
@@ -60,4 +65,14 @@ nav ul li{
         padding: 15px 0;
        
     }
+    .logo{display: none;}
+
+    .logo1{
+        max-width: 40px;
+        height: auto;
+        display: block;
+        cursor: pointer;
+    }
+    
+   
   }

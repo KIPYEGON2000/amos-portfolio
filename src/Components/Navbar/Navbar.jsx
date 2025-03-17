@@ -15,12 +15,13 @@ function Navbar(){
             <h1>KIPYEGON AMOS</h1>
             <h3>kiptoamos@gmail.com</h3>
                         <ul>
+                        <li><img className="logo1" src={logo} alt="" /></li>
              
                 <li>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/About">About</Link>
+                    <Link to="/Hero">About</Link>
                 </li>
                 <li>
                     <Link to="/Education">Education</Link>
@@ -31,6 +32,7 @@ function Navbar(){
                     
                     </li>
                 <li><button className="btn">Testimonities</button></li>
+                
 
             </ul>
 

@@ -5,8 +5,7 @@ import {
 } from "react-router-dom";
 import React from "react";
 import Header from "./Header"
-import Footer from "./Footer";
-import Card from "./Card";
+
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Education from "./Components/Education/Education";
@@ -18,44 +17,28 @@ function App() {
 
     <Router>
     <Navbar/>
+
+
     
     <Routes>
-        <Route exact path="/Home" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+       
         <Route path="/Hero" element={<Hero />} />
         <Route
             path="/Experince"
             element={<Experince />}
         />
-        {/* <Route path="/About" element={<About />} /> */}
+        
         <Route
             path="/Education"
             element={<Education />}
         />
     </Routes>
-    <About/>
+    
 </Router>
 );
 
 
-
-  //   <>
-  //   <div>
-  //   <Navbar/>
-  //   <Hero/>
-  //   <div className="container">
-  //   <Experince/>
-  //   <Education/>
-  //   <About/>
-    
-
-  //   </div>
-    
-
-  //   </div>
-
-
-  //   </>
-  // );
 
 }
 
