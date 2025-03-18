@@ -36,9 +36,13 @@ Phone Number: (+254) 742547320 <br></br>
             <h3>Email Address:</h3>
 
 <img onClick={mailLink} className="cont"  src={mail} alt="Mail" width="100" />
+
+</div>
+<div className="img2">
 <h3>WhatsApp:</h3>
 <img onClick={whatsapplLink} className="cont"  src={watsap} alt="Whatsapp" width="100" />
   
+
 
 </div>
 
