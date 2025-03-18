@@ -12,13 +12,13 @@ function Education(){
             <div className="caption">
             
             <ul>
-                <li>Jomo Kenyatta University of Agriculture and Technology</li>
+                <li className='tit'>Jomo Kenyatta University of Agriculture and Technology</li>
                 <li>September 2017 – December 2021 </li>
                  <li>Final Grade: Second Class Honors - Upper Division </li>
             </ul>
             </div>
             <div className='caption'>
-            <h3>Relevant modules</h3>
+            <h3 className='tit'>Relevant modules</h3>
             <ul>
                 <li>Geospatial Information Science.</li>
                 <li>Remote Sensing.</li>
@@ -26,7 +26,7 @@ function Education(){
                 <li>Cartography.</li>
                 <li>Geodesy.</li>
                 <li>Statistics and Geostatistics.</li>
-                <li>Computer Programming( Python, R, Basics of (C and C++), web programming (HTML,CSS) and web mapping.</li>
+                <li>Computer Programming; Python, R, Basics of (C and C++), web programming (HTML,CSS) and web mapping.</li>
                 <li>Data science (analysis and vizualization )</li>
             </ul>
 
@@ -41,8 +41,9 @@ function Education(){
             
             <ul>
                 <li>Lesirwo Secondary School, Kericho </li>
-                <li>Lesirwo Secondary School, Kericho</li>
+                
                     <li>February 2013 – November 2016 </li>
+                    <li>Mean grad B.</li>
             </ul>
             </div>
 

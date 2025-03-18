@@ -17,7 +17,7 @@ function Navbar(){
     return(
         <nav className={`container ${navColor? 'dark-color':''}`}>
             <img className="logo" src={logo} alt="" />
-            <h1>KIPYEGON AMOS</h1>
+            <h1 className="name">KIPYEGON AMOS</h1>
             <img onClick={toggleMenu} className="logo1" src={logo} alt=""/>
            
           
@@ -27,20 +27,20 @@ function Navbar(){
                         
              
                 <li>
-                    <Link to="/">Home</Link>
+                <button className="btn1"><Link to="/">Home</Link></button>
                 </li>
                 <li>
-                    <Link to="/Hero">About</Link>
+                <button className="btn1"><Link to="/Hero">About</Link></button>
                 </li>
                 <li>
-                    <Link to="/Education">Education</Link>
+                    <button className="btn1"><Link to="/Education">Education</Link></button>
                     
                     </li>
                 <li>
-                    <Link to="/Contact">contact</Link>
+                <button className="btn1"> <Link to="/Contact">contact</Link></button>
                     
                     </li>
-                <li><button className="btn">Testimonities</button></li>
+                <li><button className="btn1">RESUME</button></li>
                 
 
             </ul>

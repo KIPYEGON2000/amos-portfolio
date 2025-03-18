@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 function Home(){
-    return(<div className="home">
+    return(<div className="home1">
        
         <div className="home-container">
         <div className="home-text">

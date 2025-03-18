@@ -1,17 +1,18 @@
 .home-text{
     margin-top: 50px;
     border: 1px solid;
+
    
-    width: 40%;
-    display: block;
+    width: 200%;
+  
     justify-content: center;
     align-items: center;
     background-color: rgba(204, 201, 222, 0.2);
  
-    margin-left:auto;
+    margin-left:20px;
     margin-right:auto;
     align-content: center;
-    padding: 70px 0;
+    padding: 70px 10px;
     border: 3px solid green;
     text-align: center;
     font-size: 1.2em;
@@ -20,22 +21,23 @@
 
 }
 
-.home{
-    width: 100%;
-    min-height: 100vh;
+.home1{
 
+    min-height: 100vh;
     background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/kenya.png');
     background-size:cover;
     color: white;
     display: block;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 
 }
 .class-image{
-    width: 500px;
-    opacity: 0.7;
+    width: 50%;
+    /* opacity: 0.7; */
+    /* z-index: -1; */
 
 }
 .home-container{
@@ -47,8 +49,34 @@
 
     text-align: center;
     font-size: 1.2em;
+    justify-content: center;
 }
 
-@media (max-width: 800px) {
-    .home-text{width: 100%;}
+@media (max-width: 860px) {
+   .home1{
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/kenya.png');
+    background-size:cover;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .home-container{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        align-content: center;
+        padding: 70px 0;
+    
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    
+
+
+
 }

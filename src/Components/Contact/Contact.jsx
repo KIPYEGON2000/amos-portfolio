@@ -3,12 +3,17 @@ import './Contact.css'
 import Linkedin from '../../assets/linkendin.png'
 import mail from '../../assets/mail.jpeg'
 function Contact(){
+    const linkedinLink =()=>{
+        window.open("https://www.linkedin.com/in/kipyegon-amos-287a2a1a3/","_blank")
+    }
+    const mailLink =()=>{
+        window.open("mailto:kiptoamos@gmail.com","_blank")
+    }
     return(
         <div className="contact">
             <h2>Personal Details </h2>
 <ol>
-    <div className="date">Date of Birth
-        25/06/2000 
+    <div className="date">please feel free to contact me on email,whatsApp or linkedIn
         </div>
 <div>
 Phone Number: (+254) 742547320 <br></br>
@@ -21,13 +26,13 @@ Phone Number: (+254) 742547320 <br></br>
 <div className="img1">
 <h3>LinkedIn:</h3> 
 
-<a href="linkedin.com/in/kipyegon-amos-287a2a1a3" target="_blank" rel="noopener noreferrer">
-                <img className="cont" src={Linkedin} alt="Linkedin Profile" width="100" />
-            </a>
+
+                <img onClick={linkedinLink} className="cont" src={Linkedin} alt="Linkedin Profile" width="100" />
+            
             <h3>Email Address:</h3>
-<a href="kiptoamos@gmail.com" target="_blank" rel="noopener noreferrer">
-<img className="cont"  src={mail} alt="Mail" width="100" />
-            </a>
+
+<img onClick={mailLink} className="cont"  src={mail} alt="Mail" width="100" />
+  
 
 </div>
 
