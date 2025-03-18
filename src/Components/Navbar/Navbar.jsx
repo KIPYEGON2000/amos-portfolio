@@ -9,13 +9,22 @@ function Navbar(){
             window.scrollY>50 ? navBack(true):navBack(false);
         }),[]
     })
+    const [mobileMenu,setMobile]=useState(false);
+    const toggleMenu=()=>{
+        mobileMenu?setMobile(false):setMobile(true)
+
+    }
     return(
         <nav className={`container ${navColor? 'dark-color':''}`}>
             <img className="logo" src={logo} alt="" />
             <h1>KIPYEGON AMOS</h1>
-            <h3>kiptoamos@gmail.com</h3>
-                        <ul>
-                        <li><img className="logo1" src={logo} alt="" /></li>
+            <img onClick={toggleMenu} className="logo1" src={logo} alt=""/>
+           
+          
+            
+           
+                        <ul className={mobileMenu? '':'hide-mobile'}>
+                        
              
                 <li>
                     <Link to="/">Home</Link>
@@ -35,6 +44,8 @@ function Navbar(){
                 
 
             </ul>
+           
+            
 
         </nav>
  

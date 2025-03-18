@@ -48,6 +48,12 @@ nav ul li{
     height: auto;
     display: none;
 }
+.menu{
+    margin: 25px 40px;
+   display: block;
+
+    
+}
 
 @media (max-width: 800px) {
     nav ul li {
@@ -58,20 +64,42 @@ nav ul li{
     nav ul{
         position: fixed;
         width: 150px;
-        right: 0;
+        right: 0px;
         background-color: blue;
+        display: block;
     }
     nav{
+        
         padding: 15px 0;
        
+        width: 100%;
+        right: 0px;
+        background-color: blue;
+        display: flex;
+      
+       
+      
+        
+       
     }
+    
     .logo{display: none;}
 
     .logo1{
-        max-width: 40px;
+         width: 40px;
         height: auto;
         display: block;
         cursor: pointer;
+      
+    
+       
+      
+        
+    }
+    .hide-mobile{
+        right:-200px;
+
+
     }
     
    
