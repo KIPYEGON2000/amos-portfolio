@@ -1,6 +1,8 @@
 import React from "react";
 import './About.css'
 import { useNavigate } from "react-router-dom";
+import Contact from "../Contact/Contact";
+import Footer from "../../Components/Footer/Footer";
 function About(){
     const navigate = useNavigate();
     return(
@@ -13,6 +15,8 @@ function About(){
 
 </div>
 <button className= "btn" onClick={() => navigate("/Hero")}>More...</button>
+<Contact/>
+<Footer/>
 </div>
    
 );

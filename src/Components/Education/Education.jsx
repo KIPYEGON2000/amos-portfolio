@@ -2,6 +2,8 @@ import './Education.css'
 import primo from '../../assets/primo.jpg'
 import seco from '../../assets/seco.jpg'
 import campo from '../../assets/campo.jpg'
+import Contact from "../Contact/Contact";
+import Footer from "../../Components/Footer/Footer";
 function Education(){
     return(
       <div className='education'>
@@ -66,6 +68,8 @@ function Education(){
             </ul>
             </div>
         </div>
+        <Contact/>
+        <Footer/>
 
       </div>
     );

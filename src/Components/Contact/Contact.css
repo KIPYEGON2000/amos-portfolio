@@ -46,8 +46,8 @@
 
 @media (max-width: 860px) {
     .img1{
-        width: 90%;
-        display:inline-flex;
+        width: 80%;
+        display:flex;
         justify-content: space-between;
         justify-items:center;
         align-items: center;
@@ -57,12 +57,16 @@
     }
     .img2{
         width: 90%;
-        display:inline-flex;
+        display:flex;
         
         justify-items:center;
         align-items: center;
         padding: 20px;
      
         
+    }
+    .conta{
+        display: block;
+        width: 80%;
     }
 }

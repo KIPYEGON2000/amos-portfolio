@@ -27,13 +27,14 @@ Phone Number: (+254) 742547320 <br></br>
 </div>
 
 </ol>
+<div className="conta">
 <div className="img1">
-<h3>LinkedIn:</h3> 
+<h4>LinkedIn:</h4> 
 
 
                 <img onClick={linkedinLink} className="cont" src={Linkedin} alt="Linkedin Profile" width="100" />
             
-            <h3>Email Address:</h3>
+            <h4>Email Address:</h4>
 
 <img onClick={mailLink} className="cont"  src={mail} alt="Mail" width="100" />
 
@@ -44,6 +45,7 @@ Phone Number: (+254) 742547320 <br></br>
   
 
 
+</div>
 </div>
 
         </div>

@@ -28,7 +28,8 @@ function Navbar(){
           
             
            
-                        <ul className={mobileMenu? '':'hide-mobile'}>
+                        {/* <ul className={mobileMenu? '':'hide-mobile'}> */}
+                        <ul>
                         
              
                 <li>
@@ -45,7 +46,7 @@ function Navbar(){
                 <button className="btn1"> <Link to="/Contact">contact</Link></button>
                     
                     </li>
-                <li><button className="btn1">RESUME</button></li>
+                <li><button className="btn1"><Link to="/Portfolio">Portfolio</Link></button></li>
                 
 
             </ul>

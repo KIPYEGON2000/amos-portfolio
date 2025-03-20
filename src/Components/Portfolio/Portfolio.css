@@ -1,0 +1,28 @@
+.portfolio{
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+
+
+    justify-content: space-between;
+  
+}
+.task{
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    
+}
+.img-port{
+    width: 40%;
+}
+.img-port1{
+    width: 60%;
+}
+
+@media (max-width: 800px) {
+    .task{
+        padding: 5px;
+        width: 100%;
+        display: block;
+    }}

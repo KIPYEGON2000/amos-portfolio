@@ -12,6 +12,7 @@ import Education from "./Components/Education/Education";
 import Experince from "./Components/Experience/Experience";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
+import Portfolio from "./Components/Portfolio/Portfolio";
 function App() {
   return(
 
@@ -34,6 +35,7 @@ function App() {
             path="/Education"
             element={<Education />}
         />
+         <Route path="/Portfolio" element={<Portfolio/>}/>
     </Routes>
     
 </Router>
