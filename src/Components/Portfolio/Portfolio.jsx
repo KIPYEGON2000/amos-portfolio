@@ -3,6 +3,7 @@ import code1 from '../../assets/code_plot1.png'
 import plot from '../../assets/plot.png'
 import crop from '../../assets/crop.jpg'
 import './Portfolio.css'
+// import Map from '../Navbar/Map/Map'
 function Portfolio(){
     return(
         <div className="portfolio">
@@ -24,6 +25,7 @@ function Portfolio(){
                 </div>
                
             </div>
+        
 
 
         </div>
