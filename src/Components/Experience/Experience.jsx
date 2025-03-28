@@ -24,6 +24,7 @@ function Experince(){
 
         
         <div className="experience">
+            <h1>Work experince</h1>
            
             {/* <button className="exp-btn" onClick={forwardExp}>Prev</button>
             <button className="exp-btn-next" onClick={nextExp}>Next</button> */}
@@ -31,9 +32,12 @@ function Experince(){
             <ul ref={slider}>
                 <li>
                     <div className="slide">
+
                         <h3>GIS Analyst Intern → Skilled Casual </h3>
+                        <div className="test-date">
                         <h4>Kenya Power and Lighting Company  </h4>
                         <div className="date">November 2023 – February 2025 </div>
+                        </div>
                         <li>Conducted geospatial data analysis using Python and SQL to provide actionable insights. </li> 
                         <li>Designed and developed interactive dashboards with Streamlit, Python, and SQL. </li> 
                         <li>Assisted in SQL database management, query optimization, and data migration. </li> 
@@ -50,8 +54,10 @@ function Experince(){
                 <li>
                 <div className="slide">
                     <h3>GIS Data Analyst - Skilled Casual </h3>
+                    <div className="test-date">
                     <h4>Kenya Power and Lighting Company</h4>
-                    <h4>May 2023 – November 2023 </h4>
+                    <div className="date">May 2023 – November 2023 </div>
+                    </div>
                     <li>Conducted GIS data quality control and validation for enhanced database accuracy.</li>
                     <li>Led geospatial data cleaning efforts to improve analytical reliability.</li>
                     <li>Verified and corrected feeder and low-voltage line associations.</li>
@@ -62,8 +68,10 @@ function Experince(){
                  <li>
                  <div className="slide">
                     <h3> GIS Data Collector</h3>
+                    <div className="test-date">
                     <h4>Joint National Mapping | Kenya Power and Lighting Company</h4>
-                    <h4>February 2022 – November 2022</h4>
+                    <div className="date">February 2022 – November 2022</div>
+                    </div>
                     <li>Performed field-based GIS data collection of meters, poles, and LV lines.</li>
                     <li>Assisted security teams with navigation for power infrastructure maintenance.</li>
                     <li>Contributed to revenue collection and reporting workflows.</li>
@@ -73,8 +81,10 @@ function Experince(){
                  <li>
                  <div className="slide">
                     <h3>Survey and Mapping Intern</h3> 
+                    <div className="test-date">
                     <h4>Kenya Forest Service </h4>
-                    <h4>February 2021 – May 2021</h4>
+                    <div className="date">February 2021 – May 2021</div>
+                    </div>
                     <li>Conducted boundary surveys at Kodera Forest and Lari Forest using GPS technologies.</li>
                     <li>Digitized Mau Plantation toposheets for improved geospatial accessibility.</li>
                     <li>Performed topographic data collection with RTK and theodolite for mapping accuracy.</li>

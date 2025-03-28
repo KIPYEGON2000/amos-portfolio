@@ -1,6 +1,6 @@
 .experience{
     margin: 80px auto;
-    display: flex;
+    display: flexbox;
     padding: 0 80px;
     
     position: relative;
@@ -9,13 +9,14 @@
     
 }
 .slider{
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: inline-flex;
 
 }
 .slider ul{
     /* display: flex; */
     justify-content: space-between;
-    /* width: 200%; */
+    width: 100%;
     overflow-x: hidden;
     transition: 0.5s;
   
@@ -44,6 +45,22 @@
 .slide{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
+h1{font-size: 3em;
+color: brown;}
+.date{
+color: black;
+font-size: 1.2em;
+font-style: italic;
+display: inline;
+right: 10px;
+
+
+}
+.test-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 @media (max-width: 840px) {
@@ -52,6 +69,7 @@
         display: block;
    
         padding: 0 0px;
+        padding-top: 50px;
         
         /* position: fixed; */
         text-align: center;
@@ -75,8 +93,8 @@
     }
     .slider{
        padding: 10px;
-       display: block;
-       padding-right: 200px;
+       display: flex;
+       padding-right: 10px;
     
     }
 

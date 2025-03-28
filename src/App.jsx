@@ -28,12 +28,12 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route
             path="/Experince"
-            element={<Experince />}
+            element={<Experince/>}
         />
         
         <Route
             path="/Education"
-            element={<Education />}
+            element={<Education/>}
         />
          <Route path="/Portfolio" element={<Portfolio/>}/>
     </Routes>

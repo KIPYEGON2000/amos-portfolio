@@ -39,6 +39,10 @@ function Navbar(){
                 <button className="btn1"><Link to="/Hero">About</Link></button>
                 </li>
                 <li>
+                    <button className="btn1"><Link to="/Experince">Experience</Link></button>
+                    
+                    </li>
+                <li>
                     <button className="btn1"><Link to="/Education">Education</Link></button>
                     
                     </li>
