@@ -3,21 +3,21 @@
     display: flexbox;
     padding: 0 80px;
     
-    position: relative;
+    /* position: relative; */
     text-align: center;
     justify-content: center;
     
 }
 .slider{
     /* overflow: hidden; */
-    display: inline-flex;
+    display: block;
 
 }
 .slider ul{
     /* display: flex; */
     justify-content: space-between;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     transition: 0.5s;
   
     
@@ -38,21 +38,26 @@
     right: auto;
 }
 .slider ul li{
-    list-style: none;
+    /* list-style: none; */
     padding: 4px;
+    justify-content: left;
+    text-align: left;
+    padding-left: 5%;
+    list-style: none;
   
 }
 .slide{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
-h1{font-size: 3em;
-color: brown;}
+.experince,h4{font-size: 1.5em;
+color: rgb(111, 224, 66);
+font-weight: bolder;}
 .date{
-color: black;
 font-size: 1.2em;
 font-style: italic;
 display: inline;
 right: 10px;
+color:antiquewhite
 
 
 }
@@ -67,9 +72,13 @@ right: 10px;
     .experience{
         margin: 10px auto;
         display: block;
+        background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.6)), url('../../assets/kenya.png');
+        background-size:cover;
+        background-position: center;
    
         padding: 0 0px;
         padding-top: 50px;
+        color: bisque;
         
         /* position: fixed; */
         text-align: center;

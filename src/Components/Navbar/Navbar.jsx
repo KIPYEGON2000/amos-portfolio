@@ -46,10 +46,10 @@ function Navbar(){
                     <button className="btn1"><Link to="/Education">Education</Link></button>
                     
                     </li>
-                <li>
+                {/* <li>
                 <button className="btn1"> <Link to="/Contact">contact</Link></button>
                     
-                    </li>
+                    </li> */}
                 <li><button className="btn1"><Link to="/Portfolio">Portfolio</Link></button></li>
                 
 

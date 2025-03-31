@@ -2,7 +2,9 @@ import React from "react";
 import './Hero.css'
 import Contact from "../Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 function Hero(){
+    const navigate = useNavigate();
     return(
         <div className="hero-container">
         <div className="hero container">
@@ -24,19 +26,18 @@ I hope to continue my career in remote sensing, GIS, and task automation. My goa
 </p>
 <ol >
     <h2>Core Competencies </h2>
-    <li>Programming: Python (Pandas, NumPy, Streamlit), R, C, C++, Google Earth Engine</li>
-<li> GIS Map Creation Software: ArcGIS, QGIS, PostGIS, AutoCAD </li>
-<li>Remote Sensing and Image Processing Softwares: ERDAS IMAGINE, ENVI, SNAP </li>
-<li>Data Analysis & Visualization:  Tableau, Streamlit, Matplotlib, Plotly </li>
-<li>Database Management: SQL (PostgreSQL, MySQL) </li>
-<li> Web Programming: Basic skills in HTML, CSS, Django, JavaScript for web mapping 
-applications</li> 
-<li> Operating Systems: Windows, Linux (Ubuntu) – command-line operations and scripting </li>
-<li>Land Surveying: Experience using Level, Theodolite, RTK, and GPS for data collection </li>
+    <li>•	Programming: Python, R, Google Earth Engine, HTML, CSS, Django, React, JavaScript </li>
+<li>•	GIS Technology: ArcGIS, QGIS, AutoCAD, ERDAS IMAGINE, ENVI, SNAP.</li>
+<li>•	Data Analysis & Visualization:  Tableau, Streamlit, Matplotlib, Plotly, RStudio and Excel.</li>
+<li>•	Database Management: SQL (PostgreSQL, MySQL), database design.</li>
+<li>•	Land Surveying: Experience using Level, Theodolite, RTK, and GPS for data collection.</li>
+
 </ol>
             
         </div>
         </div>
+        <button className= "btn" onClick={() => navigate("/Experince")}>Experience...</button>
+
         <Contact/>
         <Footer/>
          

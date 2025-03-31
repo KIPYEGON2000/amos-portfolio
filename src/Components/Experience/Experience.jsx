@@ -38,17 +38,22 @@ function Experince(){
                         <h4>Kenya Power and Lighting Company  </h4>
                         <div className="date">November 2023 – February 2025 </div>
                         </div>
-                        <li>Conducted geospatial data analysis using Python and SQL to provide actionable insights. </li> 
-                        <li>Designed and developed interactive dashboards with Streamlit, Python, and SQL. </li> 
-                        <li>Assisted in SQL database management, query optimization, and data migration. </li> 
-                        <li>Performed meter data validation and quality control for FDB database accuracy. </li> 
-                        <li>Led GIS data cleaning for feeder and power line networks using Python automation. </li> 
-                        <li>Developed GIS maps for Phase III and IV of the GIS Loss Reduction Project. </li> 
-                        <li>Conducted Field data collection</li>
+                        <ol>
+                      <li>•	Analyzed and interpreted spatial data for condition and distribution of meters utilizing GIS programming to provide insight that guided necessary decision making for maximizing profit.</li>
+                        <li>•	   Developed custom Scripts using python and SQL to automate data processing and analysis task.</li>
+                        <li>•	Engineered and developed interactive dashboards with Streamlit, Python, and SQL.</li>
+                        <li>•	Revitalized project GIS database by spearheading query optimization.</li>
+                        <li>•	Utilized ArcGIS online to Performed meter data validation and quality control for FDB database accuracy.</li>
+                        <li>•	Collaborated with cross-functional team of 11 to deliver complex GIS cleaning and automation.</li>
+                        <li>•	Utilized Matplotlib and python Script to generate GIS maps for GIS Loss Reduction Project.</li>
+                        <li>•	Utilized field map ESRI software to collect GIS data. </li> 
+
+                        </ol>
                         <h4>Key Achievements: </h4>
-                        <li>Successfully developed an interactive performance dashboard integrating GIS and analytics.</li>  
-                        <li> Strengthened PostgreSQL skills through database management and data transformation. </li> 
-                        <li>Led GIS data quality improvement initiatives, ensuring high accuracy standards and Data collection</li>
+                        <li>Developed an interactive performance dashboard integrating GIS and analytics.</li>
+                        <li>Strengthened PostgreSQL skills through database management and data transformation.</li>
+                        <li>Collaborated Cross-Functional team to analyze spatial data, and Generated maps for project.</li>
+
                     </div>
                 </li>
                 <li>
@@ -58,11 +63,14 @@ function Experince(){
                     <h4>Kenya Power and Lighting Company</h4>
                     <div className="date">May 2023 – November 2023 </div>
                     </div>
-                    <li>Conducted GIS data quality control and validation for enhanced database accuracy.</li>
-                    <li>Led geospatial data cleaning efforts to improve analytical reliability.</li>
-                    <li>Verified and corrected feeder and low-voltage line associations.</li>
-                    <li>Supervised NYS teams to ensure accurate GIS data collection.</li>
-                    <li>Collected and processed field data, including substations, poles, and meters.</li>
+                    <ol>
+                 <li>•	Engineered data quality control and validation for enhanced database accuracy.</li>
+                <li>•	Analyzed and performed geospatial data cleaning to improve analytical reliability.</li>
+                <li>•	Verified and corrected feeder and low-voltage line associations.</li>
+                <li>•	Collaborated with NYS teams to ensure accurate GIS data collection.</li>
+                <li>•	Collected and processed field data, including substations, poles, and meters.  </li> 
+
+                    </ol>
                 </div>
                 </li>
                  <li>
@@ -72,10 +80,13 @@ function Experince(){
                     <h4>Joint National Mapping | Kenya Power and Lighting Company</h4>
                     <div className="date">February 2022 – November 2022</div>
                     </div>
-                    <li>Performed field-based GIS data collection of meters, poles, and LV lines.</li>
-                    <li>Assisted security teams with navigation for power infrastructure maintenance.</li>
-                    <li>Contributed to revenue collection and reporting workflows.</li>
-                    <li>Rectified incorrect meter readings and identified faulty meters.</li>
+                    <ol>
+                    <li>•	Performed field-based GIS data collection of meters, poles, and LV lines.</li>
+                    <li>•	Assisted security teams with navigation for power infrastructure maintenance.</li>
+                    <li>•	Contributed to revenue collection and reporting workflows.</li>
+                    <li>•	Rectified incorrect meter readings and identified faulty meters.</li>
+
+                    </ol>
                 </div>
                  </li>
                  <li>
@@ -85,9 +96,13 @@ function Experince(){
                     <h4>Kenya Forest Service </h4>
                     <div className="date">February 2021 – May 2021</div>
                     </div>
-                    <li>Conducted boundary surveys at Kodera Forest and Lari Forest using GPS technologies.</li>
-                    <li>Digitized Mau Plantation toposheets for improved geospatial accessibility.</li>
-                    <li>Performed topographic data collection with RTK and theodolite for mapping accuracy.</li>
+                    <ol>
+                   <li>•	Conducted boundary surveys at Kodera Forest and Lari Forest using GPS technologies.</li>
+                    <li>•	Utilized Remote sensing Technology to monitor the distribution and health of forest.</li>
+                    <li>•	Digitized Mau Plantation toposheets for improved geospatial accessibility.</li>
+                    <li>•	Performed topographic data collection with RTK and theodolite for mapping accuracy. </li>
+
+                    </ol>
                 </div>
                  </li>
             </ul>
