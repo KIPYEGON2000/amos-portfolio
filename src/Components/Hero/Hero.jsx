@@ -2,6 +2,7 @@ import React from "react";
 import './Hero.css'
 import Contact from "../Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
+
 import { useNavigate } from "react-router-dom";
 function Hero(){
     const navigate = useNavigate();
