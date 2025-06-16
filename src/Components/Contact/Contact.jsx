@@ -20,7 +20,7 @@ function Contact(){
     <div className="date">please feel free to contact me on email,whatsApp or linkedIn
         </div>
 <div>
-Phone Number: (+254) 742547320 <br></br>
+Phone Number: (+254) ...... <br></br>
  kiptoamos@gmail.com <br></br>
 
 
@@ -28,24 +28,21 @@ Phone Number: (+254) 742547320 <br></br>
 
 </ol>
 <div className="conta">
-<div className="img1">
+
 <h4>LinkedIn:</h4> 
 
 
-                <img onClick={linkedinLink} className="cont" src={Linkedin} alt="Linkedin Profile" width="100" />
+                <img onClick={linkedinLink} className="cont" src={Linkedin} alt="Linkedin Profile" />
             
             <h4>Email Address:</h4>
 
-<img onClick={mailLink} className="cont"  src={mail} alt="Mail" width="100" />
-
-</div>
-<div className="img2">
-<h3>WhatsApp:</h3>
-<img onClick={whatsapplLink} className="cont"  src={watsap} alt="Whatsapp" width="100" />
-  
+<img onClick={mailLink} className="cont"  src={mail} alt="Mail" />
 
 
-</div>
+
+<h4>WhatsApp:</h4>
+<img onClick={whatsapplLink} className="cont"  src={watsap} alt="Whatsapp" />
+
 </div>
 
         </div>

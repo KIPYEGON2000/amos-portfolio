@@ -62,7 +62,6 @@ function Education(){
             <div className="caption">
             
             <ul>
-                
                 <li>anuary 2004 – November 2012 </li>
                 <li>Final Grade: 257 Marks </li>
             </ul>

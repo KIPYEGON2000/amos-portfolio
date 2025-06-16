@@ -2,14 +2,20 @@ import React from "react";
 import './Home.css'
 import About from "../../Components/About/About";
 import class_image from '../../assets/class.jpg'
+import pasport from '../../assets/pasport.jpg'
 import { useNavigate } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 function Home(){
-    return(<div className="home1">
+    return(
+    <main><div className="home1">
        
         <div className="home-container">
         <div className="home-text">
+            <div className="log">
+            <img className="classImg" src={pasport} alt="image"></img>
+
+            </div>
             <h1>Kipyegon Amos</h1>
             <div>
             Hello! Welcome to my portfolio. 
@@ -34,6 +40,7 @@ function Home(){
      
     
         </div>
+        </main>
          
           
 

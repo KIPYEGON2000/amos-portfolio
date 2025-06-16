@@ -13,7 +13,22 @@ import Experince from "./Components/Experience/Experience";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Data from './Components/Education/Data'
 function App() {
+
+    // const educationElement = Data.map((education => {
+    //   return(
+    //     <Education 
+    //     key={education.id}
+    //     title={education.title}
+    //     title2={education.title2}
+    //     image1={education.image1}
+    //     date={education.date}
+    //     grade={education.grade}
+    //     />
+    //   )
+        
+    // }))
   return(
 
     <Router>

@@ -5,9 +5,12 @@ import crop from '../../assets/crop.jpg'
 import './Portfolio.css'
 // import Map from '../Navbar/Map/Map'
 function Portfolio(){
+    const portfo =()=>{
+        window.open("https://geo-dashboad-8.onrender.com/","_blank")
+    }
     return(
         <div className="portfolio">
-            <h1>My portfolio</h1>
+            <h1><button className= "btn" onClick={() => portfo()}>My portfolio</button></h1>
             <div className="map1">
                 <Map/>
             </div>
@@ -17,7 +20,7 @@ function Portfolio(){
                 <img className="img-port" src={code1} alt=''></img>
                 <div>
                     <h2>The code automatically choose a scale based on the size of map</h2>
-                <img className="img-port1" src={plot} alt=''></img>
+                <img onClick={portfo} className="img-port1" src={plot} alt=''></img>
                 </div>
             
                

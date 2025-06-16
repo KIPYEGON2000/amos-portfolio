@@ -46,6 +46,9 @@
     list-style: none;
   
 }
+.slider ul li::marker{
+    color: brown;
+}
 .slide{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }

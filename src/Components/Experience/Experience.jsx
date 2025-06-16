@@ -30,6 +30,33 @@ function Experince(){
             <button className="exp-btn-next" onClick={nextExp}>Next</button> */}
             <div className="slider">
             <ul ref={slider}>
+            <li>
+                 <div className="slide">
+                    <h3>Geospatial Engineer</h3> 
+                    <div className="test-date">
+                    <h4>JKUAT Enterprise|KPLC</h4>
+                    <div className="date">May 2025 – Present</div>
+                    </div>
+                    <ol>
+                   <li>• Verification of meter coordinate accuracy prior to publishing on ArcGIS Online, to
+support inspection activities and reporting on meters located outside the designated
+area of interest for further analysis.</li>
+<li>• Geo-enablement of all customer accounts and associated meters scheduled for
+inspection, ensuring spatial data is integrated for operational use.</li>
+<li>• Automation of the data collection process using workforce management tools,
+including the assignment of specific work areas to field personnel.</li>
+<li>• Near real-time tracking and monitoring of field teams to ensure comprehensive
+inspection coverage, verifying that no meters or accounts are left out.</li>
+<li>• Generation of thematic maps highlighting areas with high concentrations of specific
+anomalies, facilitating spatial analysis (spatial patterns) and targeted intervention
+after installations inspections.</li>
+<li>• Performing any additional tasks and responsibilities as assigned by supervisors and
+the project management team, in accordance with operational requirements and
+organizational priorities. </li>
+
+                    </ol>
+                </div>
+                 </li>
                 <li>
                     <div className="slide">
 
