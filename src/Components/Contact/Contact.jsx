@@ -10,9 +10,7 @@ function Contact(){
     const mailLink =()=>{
         window.open("mailto:kiptoamos@gmail.com","_blank")
     }
-    const whatsapplLink =()=>{
-        window.open("https://wa.me/254742547320" ,"_blank")
-    }
+  
     return(
         <div className="contact">
             <h2>Personal Details </h2>
@@ -39,9 +37,6 @@ Phone Number: (+254) ...... <br></br>
 <img onClick={mailLink} className="cont"  src={mail} alt="Mail" />
 
 
-
-<h4>WhatsApp:</h4>
-<img onClick={whatsapplLink} className="cont"  src={watsap} alt="Whatsapp" />
 
 </div>
 

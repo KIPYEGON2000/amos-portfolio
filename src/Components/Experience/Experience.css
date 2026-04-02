@@ -1,113 +1,202 @@
-.experience{
+.experience {
     margin: 80px auto;
-    display: flexbox;
-    padding: 0 80px;
-    
-    /* position: relative; */
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.experience h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-align: center;
-    justify-content: center;
-    
 }
-.slider{
-    /* overflow: hidden; */
-    display: block;
 
-}
-.slider ul{
-    /* display: flex; */
-    justify-content: space-between;
-    width: 100%;
-    /* overflow-x: hidden; */
-    transition: 0.5s;
-  
-    
-   
-
-}
-.exp-btn,.exp-btn-next{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    background-color: blue;
-    transform: translateY(-50%);
-    width: 50px;
-    border-radius: 50%;
-}
-.exp-btn{
-    left: 0;
-    right: auto;
-}
-.slider ul li{
-    /* list-style: none; */
-    padding: 4px;
-    justify-content: left;
-    text-align: left;
-    padding-left: 5%;
-    list-style: none;
-  
-}
-.slider ul li::marker{
-    color: brown;
-}
-.slide{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-}
-.experince,h4{font-size: 1.5em;
-color: rgb(111, 224, 66);
-font-weight: bolder;}
-.date{
-font-size: 1.2em;
-font-style: italic;
-display: inline;
-right: 10px;
-color:antiquewhite
-
-
-}
-.test-date{
+.experiences-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
 }
 
+.experience-card {
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
 
-@media (max-width: 840px) {
-    .experience{
-        margin: 10px auto;
-        display: block;
-        background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.6)), url('../../assets/kenya.png');
-        background-size:cover;
-        background-position: center;
-   
-        padding: 0 0px;
-        padding-top: 50px;
-        color: bisque;
-        
-        /* position: fixed; */
-        text-align: center;
-        justify-content: space-between;
-        
+.experience-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.experience-card h3 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.company-info h4 {
+    color: #667eea;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.date {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.responsibilities {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.responsibilities ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.responsibilities li {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    position: relative;
+    padding-left: 10px;
+}
+
+.responsibilities li::marker {
+    color: #667eea;
+    font-weight: bold;
+}
+
+.achievements {
+    text-align: left;
+    background: rgba(102, 126, 234, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 4px solid #667eea;
+}
+
+.achievements h4 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.achievements ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.achievements li {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .experience {
+        margin: 40px auto;
+        padding: 0 15px;
     }
 
-
-    .exp-btn,.exp-btn-next{
-      
-        top: 0%;
-        right: 50%;
-        background-color: blue;
-        transform: translateX(-50%);
-        width: 50px;
-        border-radius: 50%;
-    }
-    .exp-btn{
-        left: 0;
-        right: auto;
-    }
-    .slider{
-       padding: 10px;
-       display: flex;
-       padding-right: 10px;
-    
+    .experience h1 {
+        font-size: 2.2rem;
+        margin-bottom: 30px;
     }
 
+    .experiences-container {
+        gap: 30px;
+    }
+
+    .experience-card {
+        padding: 25px 20px;
+    }
+
+    .experience-card h3 {
+        font-size: 1.4rem;
+    }
+
+    .company-info {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .company-info h4 {
+        font-size: 1.1rem;
+    }
+
+    .date {
+        align-self: flex-start;
+    }
+
+    .responsibilities li {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience h1 {
+        font-size: 1.8rem;
+    }
+
+    .experience-card {
+        padding: 20px 15px;
+    }
+
+    .experience-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .company-info h4 {
+        font-size: 1rem;
+    }
+
+    .date {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+
+    .responsibilities li {
+        font-size: 0.85rem;
+    }
 }
