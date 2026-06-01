@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css';
 import About from "../../Components/About/About";
-import class_image from '../../assets/class.jpg';
+import class_image from '../../assets/plot10.png';
 import pasport from '../../assets/pasport.jpg';
 import Contact from "../Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
@@ -56,6 +56,14 @@ function Home() {
                             <div className="highlight-item">
                                 <span className="highlight-icon">▸</span>
                                 Web Mapping Applications
+                            </div>
+                            <div className="highlight-item">
+                                <span className="highlight-icon">▸</span>
+                                Land survey
+                            </div>
+                            <div className="highlight-item">
+                                <span className="highlight-icon">▸</span>
+                                Database Management
                             </div>
                         </div>
 
